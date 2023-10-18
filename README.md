@@ -1,4 +1,4 @@
-#Gehstück Website
+# Gehstück Website
 
 Source code for the website www.gehstück.ch
 
