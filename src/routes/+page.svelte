@@ -1,6 +1,12 @@
 <script>
   import { fit, parent_style } from "@leveluptuts/svelte-fit";
+  import SvelteSeo from "svelte-seo";
 </script>
+
+<SvelteSeo
+  title="Gehstück, das."
+  description="Ein Text, für den Spaziergang geschrieben, gelangt durch den Spaziergang zur Geltung. Wenn Du noch nie davon gehört hast, dann deshalb, weil ich das Gehstück als Textgattung erst begründe, indem Du das liest, gerade begründet habe."
+/>
 
 <main>
   <div style={parent_style}>
