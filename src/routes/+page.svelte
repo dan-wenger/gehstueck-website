@@ -8,11 +8,11 @@
   description="Ein Text, für den Spaziergang geschrieben, gelangt durch den Spaziergang zur Geltung. Wenn Du noch nie davon gehört hast, dann deshalb, weil ich das Gehstück als Textgattung erst begründe, indem Du das liest, gerade begründet habe."
 />
 
-<main>
+<main lang="de">
   <div style={parent_style}>
-    <h1 use:fit>Gehstück,&nbsp;das.</h1>
+    <h1 id="titel" use:fit>Gehstück,&nbsp;das.</h1>
   </div>
-  <p id="subline">
+  <p id="subline" class="blocksatz" lang="de">
     Ein Text, für den <span class="wider">Spaziergang</span> geschrieben,
     gelangt durch den <span class="wider">Spaziergang</span> zur Geltung. Wenn
     Du noch nie davon gehört hast, dann deshalb, weil ich das Gehstück als
@@ -20,9 +20,9 @@
     erst begründe, indem Du das liest, gerade
     <span class="wider">begründet</span> habe.
   </p>
-  <div id="paragraphen">
+  <div id="paragraphen" class="blocksatz">
     <p>
-      §1 Das Gehstück bedient sich des Gehens als kulturelle Technik der
+      §1 Das Gehstück bedient sich des Gehens als KULTURELLE TECHNIK der
       Wahrnehmung und des Denkens.
     </p>
     <p>
@@ -78,45 +78,72 @@
     </p>
     <p>
       §11 Das Gehstück überzeugt AUS SICH. Alle Paragrafen hier sind
-      intellektueller Anhang oder auch – im Fall dieser Einladungskarte –
-      Zierde. Du musst die aufgezählten Punkte weder gelesen noch verstanden
-      haben, um an einem Gehstück teilzunehmen.
+      intellektueller Anhang. <mark
+        >Du musst die aufgezählten Punkte weder gelesen noch verstanden haben,
+        um an einem Gehstück teilzunehmen.</mark
+      >
     </p>
   </div>
   <div class="container-right">
-    <p>Basel, Januar 2023 Léonard Wiesendanger</p>
+    <p>Léonard Wiesendanger<br />Basel, Januar 2023</p>
     <p>
-      Geschrieben zum Auftakt der Lesungsreihe „Gehstück, das.“, in welcher
+      Geschrieben zum Auftakt der Lesungsreihe „Gehstück, das.“ (2023), in welcher
       gattungsfremde Texte spazierfertig gemacht wurden mit dem Ziel, die
       Eigenständigkeit der neuen Textgattung „Gehstück“ besser verstehen und
       begründen zu können.
     </p>
-    <h2>OPEN CALL</h2>
+    <h2 id="open-call">OPEN CALL</h2>
     <p>
-      Einsendungen für die Lesungsreihe „Gehstück, das. 2024“ an
+      Einsendungen für die nächste Lesungsreihe „Gehstück, das. 2024“ an
       vvvw[at]bluewin.ch
     </p>
   </div>
 </main>
 
 <style>
-  :global(body),
-  h1,
-  h2 {
+  :global(body) {
+    margin: 0;
+    font-family: "Crimson";
+  }
+
+  main {
+    padding: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 5rem;
+  }
+
+  #titel {
     margin: 0;
   }
-  main {
-    font-family: "Crimson";
+
+  #open-call {
+    margin-bottom: 0;
+    font-size: 3rem;
   }
 
   #subline {
     font-size: 1.8rem;
   }
-
   .wider {
     letter-spacing: 0.6rem;
   }
+  p {
+    font-size: 1.2rem;
+    margin: 0.2rem;
+  }
 
+  mark {
+    margin: 0 -0.2em;
+    padding: 0.1em 0.2em;
+    border-radius: 0.7em 0.3em;
+    background: transparent;
+    background-color: #facd5a;
+  }
+
+  .blocksatz {
+    text-align: justify;
+    hyphens: none;
+  }
   #paragraphen {
     margin-top: 1rem;
     margin-bottom: 3rem;
@@ -125,21 +152,6 @@
     min-width: 45ch;
     max-width: 50%;
     margin-left: auto;
-  }
-
-  .container-right p,
-  .container-right h2 {
     text-align: right;
-  }
-
-  h2 {
-    font-size: 3rem;
-  }
-
-  p {
-    font-size: 1.2rem;
-    hyphens: auto;
-    text-align: justify;
-    margin: 0.2rem;
   }
 </style>
