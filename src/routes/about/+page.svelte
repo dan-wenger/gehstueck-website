@@ -1,1 +1,0 @@
-<p>Some About-Me text</p>
