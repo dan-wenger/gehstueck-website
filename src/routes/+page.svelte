@@ -126,6 +126,12 @@
   }
   .wider {
     letter-spacing: 0.6rem;
+    margin-right: -0.6rem;
+  }
+
+  h1, h2 {
+    font-family: 'Crimson Pro', serif;
+    font-weight: bold;
   }
   p {
     font-size: 1.2rem;
@@ -142,6 +148,7 @@
 
   .blocksatz {
     text-align: justify;
+    text-justify: inter-character;
     hyphens: none;
   }
   #paragraphen {
@@ -149,7 +156,7 @@
     margin-bottom: 3rem;
   }
   .container-right {
-    min-width: 45ch;
+    min-width: 35ch;
     max-width: 50%;
     margin-left: auto;
     text-align: right;
