@@ -103,13 +103,13 @@
 <style>
   :global(body) {
     margin: 0;
-    font-family: "Crimson";
+    font-family: "Crimson Text", serif;
   }
 
   main {
-    padding: 1rem;
-    padding-top: 0.5rem;
-    padding-bottom: 5rem;
+    padding: .7rem;
+    padding-top: 0.2rem;
+    padding-bottom: 4rem;
   }
 
   #titel {
@@ -129,7 +129,7 @@
   }
   p {
     font-size: 1.2rem;
-    margin: 0.2rem;
+    margin: 0.6rem;
   }
 
   mark {
