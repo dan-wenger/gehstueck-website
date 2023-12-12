@@ -4,7 +4,17 @@
 
 <SvelteSeo
   title="Gehstück, das."
-  description="Ein Text, für den Spaziergang geschrieben, gelangt durch den Spaziergang zur Geltung. Wenn Du noch nie davon gehört hast, dann deshalb, weil ich das Gehstück als Textgattung erst begründe, indem Du das liest, gerade begründet habe."
+  description="Ein Text, für den Spaziergang geschrieben, gelangt durch den Spaziergang zur Geltung."
+  canonical="https://www.gehstück.ch/"
+  keywords="gehstück, spaziergang, literarischer spaziergang, basel, leonard wiesendanger, wiesendanger, natur, umwelt, manifest, open call, textgattung, , lecture performance, performance, kunst"
+  openGraph={{
+    title: "Gehstück, das.",
+    description:
+      "Ein Text, für den Spaziergang geschrieben, gelangt durch den Spaziergang zur Geltung.",
+    url: "https://www.gehstück.ch/",
+    type: "website",
+    site_name: "Gehstück, das.",
+  }}
 />
 
 <main lang="de">
