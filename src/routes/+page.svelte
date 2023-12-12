@@ -1,5 +1,4 @@
 <script>
-  import { fit, parent_style } from "@leveluptuts/svelte-fit";
   import SvelteSeo from "svelte-seo";
 </script>
 
@@ -9,9 +8,7 @@
 />
 
 <main lang="de">
-  <div style={parent_style}>
-    <h1 id="titel" use:fit>Gehstück,&nbsp;das.</h1>
-  </div>
+  <h1 id="titel">Gehstück, das.</h1>
   <p id="subline" class="blocksatz" lang="de">
     Ein Text, für den <span class="wider">Spaziergang</span> geschrieben,
     gelangt durch den <span class="wider">Spaziergang</span> zur Geltung. Wenn
@@ -87,33 +84,36 @@
   <div class="container-right">
     <p>Léonard Wiesendanger<br />Basel, Januar 2023</p>
     <p>
-      Geschrieben zum Auftakt der Lesungsreihe „Gehstück, das.“ (2023), in welcher
-      gattungsfremde Texte spazierfertig gemacht wurden mit dem Ziel, die
-      Eigenständigkeit der neuen Textgattung „Gehstück“ besser verstehen und
+      Geschrieben zum Auftakt der Lesungsreihe „Gehstück, das.“ (2023), in
+      welcher gattungsfremde Texte spazierfertig gemacht wurden mit dem Ziel,
+      die Eigenständigkeit der neuen Textgattung „Gehstück“ besser verstehen und
       begründen zu können.
     </p>
     <h2 id="open-call">OPEN CALL</h2>
     <p>
       Einsendungen für die nächste Lesungsreihe „Gehstück, das. 2024“ an
-      vvvw[at]bluewin.ch
+      <a href="mailto:vvvw@bluewin.ch">vvvw[at]bluewin.ch</a>
     </p>
   </div>
 </main>
 
 <style>
+  :root {
+    --accent-color: hsl(276, 100%, 75%);
+  }
   :global(body) {
     margin: 0;
     font-family: "Crimson Text", serif;
   }
 
   main {
-    padding: .7rem;
+    padding: 0.7rem;
     padding-top: 0.2rem;
     padding-bottom: 4rem;
   }
-
   #titel {
     margin: 0;
+    font-size: 3.5rem;
   }
 
   #open-call {
@@ -129,8 +129,8 @@
     margin-right: -0.6rem;
   }
 
-  h1, h2 {
-    font-family: 'Crimson Pro', serif;
+  h1,
+  h2 {
     font-weight: bold;
   }
   p {
@@ -138,12 +138,16 @@
     margin: 0.6rem;
   }
 
+  a {
+    color: black;
+  }
+
   mark {
     margin: 0 -0.2em;
     padding: 0.1em 0.2em;
-    border-radius: 0.7em 0.3em;
+    border-radius: 0;
     background: transparent;
-    background-color: #facd5a;
+    background-color: var(--accent-color);
   }
 
   .blocksatz {
@@ -156,9 +160,23 @@
     margin-bottom: 3rem;
   }
   .container-right {
-    min-width: 35ch;
-    max-width: 50%;
+    min-width: 100%;
+    max-width: 100%;
     margin-left: auto;
     text-align: right;
+  }
+
+  @media screen and (min-width: 600px) {
+    /* Bei jedem größeren Monitor kommen neue Regeln hinzu */
+    #titel {
+      font-size: 6.5rem;
+    }
+
+    .container-right {
+      min-width: 35ch;
+      max-width: 55%;
+      margin-left: auto;
+      text-align: right;
+    }
   }
 </style>

@@ -9,7 +9,6 @@
 		"deploy": "npm run build && npx gh-pages -d build -t true"
 	},
 	"devDependencies": {
-		"@fontsource/crimson-pro": "^5.0.15",
 		"@fontsource/crimson-text": "^5.0.8",
 		"@sveltejs/adapter-auto": "^2.0.0",
 		"@sveltejs/adapter-static": "^2.0.3",
@@ -19,8 +18,5 @@
 		"svelte-seo": "^1.5.4",
 		"vite": "^4.4.2"
 	},
-	"type": "module",
-	"dependencies": {
-		"@leveluptuts/svelte-fit": "^1.0.3"
-	}
+	"type": "module"
 }
