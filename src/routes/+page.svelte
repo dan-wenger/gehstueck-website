@@ -30,7 +30,7 @@
   <div id="paragraphen" class="blocksatz">
     <p>
       §1 Das Gehstück bedient sich des Gehens als KULTURELLE TECHNIK der
-      Wahrnehmung und des Denkens.???
+      Wahrnehmung und des Denkens.
     </p>
     <p>
       §2 Das Gehstück bietet eine besondere Art von Texterfahrung durch den
