@@ -113,7 +113,7 @@
   }
   #titel {
     margin: 0;
-    font-size: 3.5rem;
+    font-size: 3.2rem;
   }
 
   #open-call {
@@ -122,7 +122,7 @@
   }
 
   #subline {
-    font-size: 1.8rem;
+    font-size: 1.55rem;
   }
   .wider {
     letter-spacing: 0.6rem;
@@ -152,7 +152,7 @@
 
   .blocksatz {
     text-align: justify;
-    text-justify: inter-character;
+    text-justify: inter-word;
     hyphens: none;
   }
   #paragraphen {
