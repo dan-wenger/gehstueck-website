@@ -9,6 +9,7 @@
 	},
 	"devDependencies": {
 		"@fontsource/crimson-text": "^5.0.8",
+		"@sveltejs/adapter-static": "^3.0.1",
 		"@sveltejs/adapter-vercel": "^4.0.4",
 		"@sveltejs/kit": "^2.1.0",
 		"svelte": "^4.0.5",
