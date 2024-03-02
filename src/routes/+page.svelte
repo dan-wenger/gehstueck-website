@@ -102,7 +102,7 @@
     <h2 id="open-call">OPEN CALL</h2>
     <p>
       Einsendungen für die nächste Lesungsreihe „Gehstück, das. 2024“ an
-      <a href="mailto:vvvw@bluewin.ch">vvvw[at]bluewin.ch</a>
+      <a href="mailto:info@gehstueck.ch">info[at]gehstueck.ch</a>
     </p>
   </div>
 </main>
