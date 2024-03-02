@@ -100,9 +100,8 @@
       begründen zu können.
     </p>
   </div>
-  <p></p>
-  <p></p>
-  <p></p>
+  <div class="abstandhalter"></div>
+
   <div class="blocksatz paragraphen">
     <p>
       §12 Ein Gehstück kann als LESUNG auf einem Spaziergang in Szene gesetzt
@@ -194,9 +193,19 @@
     <p>Léonard Wiesendanger<br />Basel, Februar 2024</p>
     <p>Geschrieben zum Auftakt der Lesungsreihe „Gehstück, das. 24/1“.</p>
   </div>
+  <div class="abstandhalter"></div>
 
   <div class="container-right">
-    <h2 id="open-call">OPEN CALL</h2>
+    <h2 class="untertitel">PROGRAMM</h2>
+    <p>
+      <a href="https://1drv.ms/b/s!Aml69EoNY2O4gbwmpdtnUE6WeC7yig?e=fulLbD"
+        >PDF</a
+      >
+    </p>
+  </div>
+
+  <div class="container-right">
+    <h2 class="untertitel">OPEN CALL</h2>
     <p>
       Ich verstehe das Gehstück als öffnende Bewegung: Wer sich daran versuchen
       will, Texte und Ideen an
@@ -225,7 +234,7 @@
     font-size: 3.2rem;
   }
 
-  #open-call {
+  .untertitel {
     margin-bottom: 0;
     font-size: 3rem;
   }
@@ -273,6 +282,10 @@
     max-width: 100%;
     margin-left: auto;
     text-align: right;
+  }
+
+  .abstandhalter {
+    height: 7rem;
   }
 
   @media screen and (min-width: 600px) {
