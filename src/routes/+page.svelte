@@ -1,22 +1,8 @@
 <script>
-  import SvelteSeo from "svelte-seo";
+  import SEO from "../lib/SEO.svelte";
 </script>
 
-<SvelteSeo
-  title="Gehstück, das."
-  description="Ein Text, für den Spaziergang geschrieben, gelangt durch den Spaziergang zur Geltung."
-  canonical="https://www.gehstück.ch/"
-  keywords="gehstück, spaziergang, literarischer spaziergang, basel, leonard wiesendanger, wiesendanger, natur, umwelt, manifest, open call, textgattung, , lecture performance, performance, kunst"
-  openGraph={{
-    title: "Gehstück, das.",
-    description:
-      "Ein Text, für den Spaziergang geschrieben, gelangt durch den Spaziergang zur Geltung.",
-    url: "https://www.gehstück.ch/",
-    type: "website",
-    site_name: "Gehstück, das.",
-  }}
-/>
-
+<SEO />
 <main lang="de">
   <h1 class="titel">Gehstück, das.</h1>
   <p class="subline blocksatz" lang="de">
