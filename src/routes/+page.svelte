@@ -237,7 +237,7 @@
 
   h1,
   h2 {
-    font-weight:100;
+    font-weight:500;
   }
   p {
     font-size: 1.2rem;
