@@ -193,7 +193,7 @@
   <div class="container-right">
     <h2 class="untertitel">OPEN CALL</h2>
     <p>
-      Ich verstehe das Gehstück als öffnende Bewegung: Wer sich daran versuchen
+      Das Gehstück ist eine öffnende Bewegung: Wer sich daran versuchen
       will, Texte und Ideen an
       <a href="mailto:info@gehstueck.ch">info[at]gehstueck.ch</a>. Gerne gebe
       ich Rückmeldung, auch im Hinblick auf das Programm 2024/2.
