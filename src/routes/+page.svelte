@@ -207,7 +207,7 @@
   }
   :global(body) {
     margin: 0;
-    font-family: "Helvetica", serif;
+    font-family: "Crimson Text", serif;
   }
 
   main {
@@ -279,7 +279,7 @@
   @media screen and (min-width: 600px) {
     /* Bei jedem größeren Monitor kommen neue Regeln hinzu */
     .titel {
-      font-size: 6.5rem;
+      font-size: 2rem;
     }
 
     .container-right {
@@ -292,6 +292,6 @@
     main {
       max-width: 800px; /* Feste Breite ab einer bestimmten Bildschirmgröße */
     }
-    
+
   }
 </style>
