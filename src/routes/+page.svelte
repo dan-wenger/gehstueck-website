@@ -242,7 +242,7 @@
 
   p {
     font-size: 1.2rem;
-    margin: 2rem;
+    margin: 0.6rem;
     line-height: 2rem;
   }
 
