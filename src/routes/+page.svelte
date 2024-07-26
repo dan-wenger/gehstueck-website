@@ -219,7 +219,7 @@
 
   .titel {
     margin: 0;
-    font-size: 2rem;
+    font-size: 4rem;
   }
 
   .untertitel {
