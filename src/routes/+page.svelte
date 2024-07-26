@@ -4,7 +4,7 @@
 
 <SEO />
 <main lang="de">
-  <h1 class="titel">Gehstück, das.</h1>
+  <h1 class="titel">Gehstück</h1>
   <p class="subline blocksatz" lang="de">
     Ein Text, für den <span class="wider">Spaziergang</span> geschrieben,
     gelangt durch den <span class="wider">Spaziergang</span> zur Geltung. Wenn
