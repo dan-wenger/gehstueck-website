@@ -229,8 +229,9 @@
 
   .subline {
     font-size: 1.55rem;
-    line-height: 2rem;
+    line-height: 3rem;
   }
+
   .wider {
     letter-spacing: 0.6rem;
     margin-right: -0.6rem;
