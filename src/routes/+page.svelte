@@ -237,12 +237,12 @@
 
   h1,
   h2 {
-    font-weight: bold;
+    font-weight:100;
   }
   p {
     font-size: 1.2rem;
     margin: 0.6rem;
-    line-height: 1.8rem;
+    line-height: 2rem;
   }
 
   a {
