@@ -4,7 +4,7 @@
 
 <SEO />
 <main lang="de">
-  <h1 class="titel">Gehstück</h1>
+  <h1 class="titel">Gehstück, das.</h1>
   <p class="subline blocksatz" lang="de">
     Ein Text, für den <span class="wider">Spaziergang</span> geschrieben,
     gelangt durch den <span class="wider">Spaziergang</span> zur Geltung. Wenn
@@ -207,17 +207,19 @@
   }
   :global(body) {
     margin: 0;
-    font-family: "Crimson Text", serif;
+    font-family: "Helvetica", serif;
   }
 
   main {
     padding: 0.7rem;
     padding-top: 0.2rem;
     padding-bottom: 4rem;
+    margin: 0 auto;
   }
+
   .titel {
     margin: 0;
-    font-size: 3.2rem;
+    font-size: 2rem;
   }
 
   .untertitel {
@@ -286,5 +288,10 @@
       margin-left: auto;
       text-align: right;
     }
+
+    main {
+      max-width: 800px; /* Feste Breite ab einer bestimmten Bildschirmgröße */
+    }
+    
   }
 </style>
