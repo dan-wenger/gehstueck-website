@@ -237,8 +237,9 @@
 
   h1,
   h2 {
-    font-weight:500;
+    font-weight:600;
   }
+
   p {
     font-size: 1.2rem;
     margin: 0.6rem;
