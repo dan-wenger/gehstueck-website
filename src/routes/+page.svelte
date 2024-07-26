@@ -279,7 +279,7 @@
   @media screen and (min-width: 600px) {
     /* Bei jedem größeren Monitor kommen neue Regeln hinzu */
     .titel {
-      font-size: 2rem;
+      font-size: 5rem;
     }
 
     .container-right {
