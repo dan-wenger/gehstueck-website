@@ -240,10 +240,6 @@
     font-weight:500;
   }
 
-  h2 {
-    line-height: 1rem;
-  }
-
   p {
     font-size: 1.2rem;
     margin: 0.6rem;
