@@ -229,7 +229,7 @@
 
   .subline {
     font-size: 1.55rem;
-    line-height: 3rem;
+    line-height: 2rem;
   }
 
   .wider {
