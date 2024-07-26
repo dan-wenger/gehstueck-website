@@ -185,8 +185,7 @@
     <h2 class="untertitel">PROGRAMM</h2>
     <p>
       <a href="https://1drv.ms/b/s!Aml69EoNY2O4gbwmpdtnUE6WeC7yig?e=fulLbD"
-        >PDF</a
-      >
+        >PDF</a>
     </p>
   </div>
 
@@ -207,7 +206,7 @@
   }
   :global(body) {
     margin: 0;
-    font-family: "Crimson Text", serif;
+    font-family: "Helvetica", serif;
   }
 
   main {
