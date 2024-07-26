@@ -229,6 +229,7 @@
 
   .subline {
     font-size: 1.55rem;
+    line-height: 2rem;
   }
   .wider {
     letter-spacing: 0.6rem;
