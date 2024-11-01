@@ -6,7 +6,7 @@
 <main lang="de">
   <h1 class="titel">Gehstück, das.</h1>
   <p class="subline blocksatz" lang="de">
-    Ein Text, für das Gehen geschrieben, gelangt durch das Gehen zur Geltung. Wenn Du noch nie davon gehört hast, dann deshalb, weil ich das Gehstück als Textgattung erst begründe, indem Du das liest, gerade begründet habe.
+    Ein Text für das Gehen geschrieben, gelangt durch das Gehen zur Geltung. Wenn Du noch nie davon gehört hast, dann deshalb, weil ich das Gehstück als Textgattung erst begründe, indem Du das liest, gerade begründet habe.
   </p>
   <div class="blocksatz paragraphen">
     <p>
