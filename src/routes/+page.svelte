@@ -6,8 +6,8 @@
 <main lang="de">
   <h1 class="titel">Gehstück, das.</h1>
   <p class="subline blocksatz" lang="de">
-    Ein Text, für den <span class="wider">Spaziergang</span> geschrieben,
-    gelangt durch den <span class="wider">Spaziergang</span> zur Geltung. Wenn
+    Ein Text, für das <span class="wider">Gehen</span> geschrieben,
+    gelangt durch das <span class="wider">Gehen</span> zur Geltung. Wenn
     Du noch nie davon gehört hast, dann deshalb, weil ich das Gehstück als
     <span class="wider">Textgattung</span>
     erst begründe, indem Du das liest, gerade
@@ -184,8 +184,9 @@
   <div class="container-right">
     <h2 class="untertitel">PROGRAMM</h2>
     <p>
-      <a href="https://1drv.ms/b/s!Aml69EoNY2O4gbwmpdtnUE6WeC7yig?e=fulLbD"
-        >PDF</a>
+      <a href="https://1drv.ms/b/s!Aml69EoNY2O4gcd1V_uA0cRhTFBTxw?e=K35oFe">2023</a>
+      <a href="https://1drv.ms/b/s!Aml69EoNY2O4gbwmpdtnUE6WeC7yig?e=fulLbD">2024/1</a>
+      <a href="https://1drv.ms/b/s!Aml69EoNY2O4gcd05w01b555Z20DXg?e=hygzI6">2024/2</a> 
     </p>
   </div>
 
@@ -195,7 +196,7 @@
       Das Gehstück ist eine öffnende Bewegung: Wer sich daran versuchen
       will, Texte und Ideen an
       <a href="mailto:info@gehstueck.ch">info[at]gehstueck.ch</a>. Gerne gebe
-      ich Rückmeldung, auch im Hinblick auf das Programm 2024/2.
+      ich Rückmeldung, auch im Hinblick auf die anstehende Programmplanung.
     </p>
   </div>
 </main>
