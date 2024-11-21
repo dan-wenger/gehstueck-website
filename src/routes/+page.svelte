@@ -179,9 +179,9 @@
   <div class="container-right">
     <h2 class="untertitel">PROGRAMM</h2>
     <p>
-      <a href="https://1drv.ms/b/s!Aml69EoNY2O4gcd1V_uA0cRhTFBTxw?e=K35oFe">2023</a>
-      <a href="https://1drv.ms/b/s!Aml69EoNY2O4gbwmpdtnUE6WeC7yig?e=fulLbD">2024/1</a>
-      <a href="https://1drv.ms/b/s!Aml69EoNY2O4gcd05w01b555Z20DXg?e=hygzI6">2024/2</a> 
+      <a href="https://1drv.ms/b/s!Aml69EoNY2O4gcd1V_uA0cRhTFBTxw?e=eWrqFn">2023</a>
+      <a href="https://1drv.ms/b/s!Aml69EoNY2O4gbwm4BlbathRqVUcow?e=vQ1NWP">2024/1</a>
+      <a href="https://1drv.ms/b/s!Aml69EoNY2O4gcd05w01b555Z20DXg?e=B0gERi">2024/2</a> 
     </p>
   </div>
 
