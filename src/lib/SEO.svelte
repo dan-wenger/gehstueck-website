@@ -20,6 +20,9 @@
     "kunst",
   ];
   export let ogType = "website";
+
+  // Optional: fügt JSON-LD mit Person-Daten hinzu
+  export let includePerson = false;
 </script>
 
 <svelte:head>
@@ -27,19 +30,50 @@
     <title>{title}</title>
     <meta property="og:title" content={title} />
   {/if}
+
   {#if description}
     <meta name="description" content={description} />
     <meta property="og:description" content={description} />
   {/if}
+
   {#if url}
     <link rel="canonical" href={url} />
+    <meta property="og:url" content={url} />
   {/if}
+
   {#if tags.length > 0}
-    <meta name="keywords" content={tags.join(",")} />
+    <meta name="keywords" content={tags.join(", ")} />
   {/if}
+
   {#if ogType}
     <meta property="og:type" content={ogType} />
   {/if}
-  
-  <meta name="msvalidate.01" content="A9D521576A01F2ACB7E7D4A853C2ECDD" />
+
+  <!-- Optionaler JSON-LD Person-Block -->
+  {#if includePerson}
+    <script type="application/ld+json">
+      {JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Léonard Wiesendanger",
+        "alternateName": [
+          "Leonard Wiesendanger",
+          "Leon Wiesendanger",
+          "Leo Wiesendanger",
+          "lwiesendanger",
+          "leowie",
+          "LJVW"
+        ],
+        "url": "https://leowie.ch",
+        "sameAs": [
+          "https://www.gehstück.ch",
+          "https://dieabstraktebanane.ch/",
+          "https://www.lokal-fuer-raumbegehung.ch/",
+          "https://www.instagram.com/zitatzitrone/",
+          "https://www.instagram.com/lwiesendanger/",
+          "https://www.instagram.com/vvvw.install/"
+        ]
+      })}
+    </script>
+  {/if}
 </svelte:head>

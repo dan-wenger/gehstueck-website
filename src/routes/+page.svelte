@@ -2,7 +2,13 @@
   import SEO from "../lib/SEO.svelte";
 </script>
 
-<SEO />
+<SEO
+  title="Gehstück, das. | Léonard Wiesendanger"
+  description="Das Gehstück – eine Textgattung, die das Gehen als künstlerische Praxis versteht. Begründet von Léonard Wiesendanger."
+  url="https://www.gehstück.ch"
+  includePerson={true}
+/>
+
 <main lang="de">
   <h1 class="titel">Gehstück, das.</h1>
   <p class="subline blocksatz" lang="de">
