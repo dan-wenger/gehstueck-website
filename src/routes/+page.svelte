@@ -204,7 +204,7 @@
   <div class="container-right">
     <h2 class="untertitel">NEWSLETTER</h2>
     <p>
-      <a href="mailto:info@gehstueck.ch?subject=Anmeldung%20Newsletter&body=Guten%20Tag%0A%0AGerne%20melde%20ich%20mich%20für%20den%20Newsletter%20an.%0A%0A%5BAdjektiv%5D%20Gr%C3%BCsse%0A%0A%5BName%5D" class="newsletter">Bleibe informiert.</a>
+      <a href="mailto:info@gehstueck.ch?subject=Anmeldung%20Newsletter&body=Guten%20Tag%0A%0AGerne%20melde%20ich%20mich%20für%20den%20Newsletter%20an.%0A%0A%5BAdjektiv%5D%20Gr%C3%BCsse%0A%0A%5BName%5D" class="newsletter">Informiert bleiben :-)</a>
     </p>
   </div>
 
