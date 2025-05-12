@@ -79,7 +79,7 @@
     </p>
   </div>
   <div class="container-right">
-    <p>LJVW<br/>Basel, Januar 2023</p>
+    <p>LJVW, Basel, Januar 2023</p>
     <p>
       Geschrieben zum Auftakt der Lesungsreihe „Gehstück, das.“ (2023), in
       welcher gattungsfremde Texte spazierfertig gemacht wurden mit dem Ziel,
@@ -99,6 +99,8 @@
     </p>
   </div>
 
+  <div class="abstandhalter"></div>
+
   <div class="container-right">
     <h2 class="untertitel">OPEN CALL</h2>
     <p>
@@ -108,6 +110,8 @@
       wir Rückmeldung, auch im Hinblick auf die anstehende Programmplanung.
     </p>
   </div>
+
+  <div class="abstandhalter"></div>
 
   <div class="container-right">
     <h2 class="untertitel">NEWSLETTER</h2>
