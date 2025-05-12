@@ -85,6 +85,7 @@
       die Eigenständigkeit der neuen Textgattung „Gehstück“ besser verstehen und
       begründen zu können.
     </p>
+    <p>Weitere Paragrafen können <a href="https://leowie.ch/gehstueck.html">hier</a>eingesehen werden.</p>
   </div>
 
   <div class="abstandhalter"></div>
