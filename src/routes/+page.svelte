@@ -3,7 +3,7 @@
 </script>
 
 <SEO
-  title="Gehstück, das. | LJVW"
+  title="Gehstück, das."
   description="Das Gehstück – eine literarische Textgattung, die das Gehen zur künstlerischen Praxis nimmt. Begründet von LJVW."
   url="https://www.gehstück.ch"
   includePerson={true}
