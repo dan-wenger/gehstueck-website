@@ -87,7 +87,7 @@
       begründen zu können.
     </p>
   </div>
-  
+
   <div class="abstandhalter"></div>
 
   <div class="container-right">
@@ -205,10 +205,10 @@
     }
 
     .container-right {
-      min-width: 35ch;
-      max-width: 55%;
-      margin-left: auto;
-      text-align: right;
+     min-width: 100%;
+    max-width: 100%;
+    margin-left: auto;
+    text-align: right;
     }
 
     main {
