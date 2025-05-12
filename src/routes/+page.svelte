@@ -199,7 +199,7 @@
   }
 
   .abstandhalter {
-    height: 7rem;
+    height: 5rem;
   }
 
   @media screen and (min-width: 600px) {
