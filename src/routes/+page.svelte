@@ -3,8 +3,8 @@
 </script>
 
 <SEO
-  title="Gehstück, das. | Léonard Wiesendanger"
-  description="Das Gehstück – eine Textgattung, die das Gehen als künstlerische Praxis versteht. Begründet von Léonard Wiesendanger."
+  title="Gehstück, das. | LJVW"
+  description="Das Gehstück – eine literarische Textgattung, die das Gehen zur künstlerischen Praxis nimmt. Begründet von LJVW."
   url="https://www.gehstück.ch"
   includePerson={true}
 />
@@ -74,8 +74,7 @@
       §11 Das Gehstück überzeugt AUS SICH. Alle Paragrafen hier sind
       intellektueller Anhang. <mark
         >Du musst die aufgezählten Punkte weder gelesen noch verstanden haben,
-        um an einem Gehstück teilzunehmen.</mark
-      >
+        um an einem Gehstück teilzunehmen.</mark>
     </p>
   </div>
   <div class="container-right">
@@ -92,11 +91,9 @@
 
   <div class="container-right">
     <h2 class="untertitel">PROGRAMM</h2>
-    <p>
-      <a href="https://1drv.ms/b/s!Aml69EoNY2O4gcd1V_uA0cRhTFBTxw?e=eWrqFn">2023</a>
-      <a href="https://1drv.ms/b/s!Aml69EoNY2O4gbwm4BlbathRqVUcow?e=vQ1NWP">2024/1</a>
-      <a href="https://1drv.ms/b/s!Aml69EoNY2O4gcd05w01b555Z20DXg?e=B0gERi">2024/2</a> 
-    </p>
+    <p><a href="https://1drv.ms/b/s!Aml69EoNY2O4gcd1V_uA0cRhTFBTxw?e=eWrqFn">2023</a></p>
+    <p><a href="https://1drv.ms/b/s!Aml69EoNY2O4gbwm4BlbathRqVUcow?e=vQ1NWP">2024/1</a></p>
+    <p><a href="https://1drv.ms/b/s!Aml69EoNY2O4gcd05w01b555Z20DXg?e=B0gERi">2024/2</a></p>
   </div>
 
   <div class="abstandhalter"></div>
@@ -115,9 +112,7 @@
 
   <div class="container-right">
     <h2 class="untertitel">NEWSLETTER</h2>
-    <p>
-      <a href="mailto:info@gehstueck.ch?subject=Anmeldung%20Newsletter&body=Guten%20Tag%0A%0AGerne%20melde%20ich%20mich%20für%20den%20Newsletter%20an.%0A%0A%5BAdjektiv%5D%20Gr%C3%BCsse%0A%0A%5BName%5D" class="newsletter">Informiert bleiben :-)</a>
-    </p>
+    <p>Wer informiert bleiben möchte, kann sich für den Newsletter <a href="mailto:info@gehstueck.ch?subject=Anmeldung%20Newsletter&body=Guten%20Tag%0A%0AGerne%20melde%20ich%20mich%20für%20den%20Newsletter%20an.%0A%0A%5BAdjektiv%5D%20Gr%C3%BCsse%0A%0A%5BName%5D" class="newsletter">anmelden</a>.</p>
   </div>
 
 </main>
@@ -199,7 +194,7 @@
   }
 
   .abstandhalter {
-    height: 5rem;
+    height: 4rem;
   }
 
   @media screen and (min-width: 600px) {
